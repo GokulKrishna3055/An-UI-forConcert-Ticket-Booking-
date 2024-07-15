@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    border: solid #000000;
+    gap: 5px;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: solid #000000;
+    padding: 5%;
+}
+.title{
+    text-align: center;
+}
+input{
+    width: 77vh;
+    height: 6vh;
+}
+#add{
+    height: 7vh;
+    width: 3.5vw;
+    background-color: #296a9c;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+#add:hover {
+    background-color: #3c8b94e0;
+    color: #000000;
+}
+#content{
+    border: solid #000000;
+    width: 30%;
+    height: 200px;
+    overflow-y: scroll;
+    float: left;
+    white-space: pre-line;
+    padding: 3%;
+}
+.button{
+    display: flex;
+    gap: 13px;
+}
+.button button{
+    height: 10vh;
+    width: 20vh;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+#alt{
+    background-color: #b3c6f3;
+    color: #000000;
+}
+#alt:hover{
+    background-color: #3c8b94e0;
+    color: black;
+}
+#at{
+    background-color: #d3a2a6;
+    color: #000000;
+}
+#at:hover{
+    background-color: #3c8b94e0;
+    color: black;
+}
+#com{
+    background-color: #c3b5;
+    color: #000000;
+}
+#com:hover{
+    background-color: #3c8b94e0;
+    color: black;
+}
+#ts{
+    background-color: #a3d5f1;
+    color: #000000;
+}
+#ts:hover{
+    background-color: #3c8b94e0;
+    color: black;
+}
+button:active{
+    background-color: #000000;
+    color: #ffffff;
+}

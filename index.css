@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+   display: flex;
+   flex-direction: column; 
+   border: 3px solid skyblue;
+   
+}
+.con{
+   
+    display: flex;
+    padding: 4%;
+    gap: 18vw;
+}
+.con h1,h2{
+    font-size: medium;
+}
+.c1,.c2,.c3{
+    padding: 4%;
+    
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px #000000;
+    background-color: #FFBD33;
+}
+.button{
+    display: flex;
+    gap: 1vw;
+}
+input{
+    border: none;
+    width: 1vw;
+    background-color: #FFBD33;
+}
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        
+        color: #fff;
+    }
+}
+#decr,#decr2,#decr3{
+    display: none;
+}
+#CHECKOUT{
+    height: 18%;
+    width: 10%;
+    background-color: #f42da3;
+}

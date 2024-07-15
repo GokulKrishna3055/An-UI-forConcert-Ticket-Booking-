@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert ticket</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    
+    
+    <div class="main">
+        <h1 class="head">Concert81 @ MusicAcademy</h1>
+        <div class="con">
+            
+            <div class="c1">
+                <div class="dea1">
+                    <h1>Swarathmika Srikanth</h1>
+                    <h2>@Ragasudha Hall</h2>
+                    <pre>25.03.2024 6:15pm
+Mylapore
+                    </pre>
+                    <span>₹599</span>
+                    <div class="button">
+                        <div id="decr">
+                            <button onclick="dec1()" id="de1">-</button>
+                        </div>
+                        <input type="text" value="0" id="nt1">
+                            <button onclick="inc1()">+</button>
+                    </div><br>
+                    <button  onclick="fa1()">Submit</button>
+                </div>
+                
+            </div>
+            <div class="c2">
+                <div class="dea2">
+                    <h1>Padmashree Srinivasan </h1>
+                    <h2>@Sarawathi Hall</h2>
+                    <pre>25.03.2024 4:15pm
+Mylapore
+                    </pre>
+                    <span>₹899</span>
+                    <div class="button">
+                        <div id="decr2">
+                        <button onclick="dec2()"  id="de2">-</button></div>
+                        <input type="text" value="0" id="nt2">
+                            <button onclick="inc2()">+</button>
+                    </div><br>
+                    <button onclick="fa2()">Submit</button>
+                </div>
+                
+            </div>
+            <div class="c3">
+                <div class="dea3">
+                    <h1>K. Radhika</h1>
+                    <h2>@Kasthuri Hall</h2>
+                    <pre>30.08.2024 5:15pm
+Mylapore
+                    </pre>
+                    <span>₹699</span>
+                    <div class="button">
+                        <div id="decr3">
+                        <button onclick="dec3()"  id="de3">-</button></div>
+                        <input type="text" value="0" id="nt3">
+                            <button onclick="inc3()">+</button>
+                    </div><br>
+                    <button onclick="fa3()">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+        <p>Total:<span style="color: Red;">₹</span><span id="amt1" style="color: red;"></span></p><br>
+        
+    </div>
+<form action="bill.html">
+    <button type="submit"  id="CHECKOUT" onclick="fa()">CHECKOUT</button><br><br>
+</form>
+</body>
+</html>

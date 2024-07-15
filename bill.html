@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILL</title>
+    <style>
+        body{
+            margin: auto;
+            height: 100%;
+            width: 100%;
+        }
+        .bill{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #a3c5a3;
+            color: #04010d;
+        }
+    </style>
+</head>
+<body>
+    <div class="bill">
+        <h1>Your Bill is Generated</h1>
+        <h3>Ticket Amount For First Concert: ₹<span id="c1a"></span></h3>
+        <h3>Ticket Amount For Second Concert: ₹<span id="c2a"></span></h3>
+        <h3>Ticket Amount For Third Concert: ₹<span id="c3a"></span></h3>
+        <h3>Total Ticket Amount For Concerts: ₹<span id="ca"></span></h3>
+    </div>
+    <script>
+        document.getElementById("c1a").innerHTML=localStorage.getItem("c1-amt")
+        document.getElementById("c2a").innerHTML=localStorage.getItem("c2-amt")
+        document.getElementById("c3a").innerHTML=localStorage.getItem("c3-amt")
+        document.getElementById("ca").innerHTML=localStorage.getItem("c-amt")
+    </script>
+</body>
+</html>
