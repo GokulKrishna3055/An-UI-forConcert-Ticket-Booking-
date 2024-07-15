@@ -1,0 +1,3 @@
+In this repository you will have the files required for a simple UI for a concert booking.
+you will get to How the increment of tickets working and so on...
+Contact me for doubts..
